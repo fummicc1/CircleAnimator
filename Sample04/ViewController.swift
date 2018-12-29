@@ -6,15 +6,20 @@
 //  Copyright © 2018 Fumiya Tanaka. All rights reserved.
 //
 
-import UIKit
+import SpriteKit
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        if let view = self.view as? TouchView {
+            let scene = SKScene(size: CGSize(width: view.frame.size.width, height: -view.frame.size.height))
+            scene.anchorPoint = CGPoint(x: 0, y: 1)
+            scene.backgroundColor = .green
+            view.presentScene(scene)
+        }
+        
     }
-
-
 }
 
