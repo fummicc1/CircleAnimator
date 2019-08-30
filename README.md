@@ -8,4 +8,4 @@
 
 
 ### 横向き
-![demo2.gif](https://media.giphy.com/media/JppnKNZTtu9u3VVGuU/giphy.gif)
+![demo2.gif](https://media.giphy.com/media/M9ZB61pmQxihSqe9kZ/giphy.gif)
