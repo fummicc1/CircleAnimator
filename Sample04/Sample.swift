@@ -70,7 +70,7 @@ class TouchView: SKView {
         currentLocation = nil
         
         if nodeArray.count >= 10 {
-            for (index, node) in self.nodeArray.enumerated() {
+            for (_, node) in self.nodeArray.enumerated() {
                 
                 let centerAnimation = SKAction.move(to: self.center, duration: 3.0)
                 
